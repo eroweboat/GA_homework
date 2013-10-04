@@ -10,7 +10,7 @@ if not os.path.exists(dir_out):
     os.mkdir(dir_out)
     print 'created directory %s' % dir_out
 
-threshold = 25
+threshold = 35
 symbols = ['FB']
 tmp =[]
 
