@@ -1,4 +1,3 @@
-
 import json
 import urllib
 import os
@@ -83,10 +82,7 @@ print ('\n Residual sum of squares: %.2f \n' % np.mean((model.predict(X_test) - 
 #best score is 1.0, lower scores are worse
 print ('\n R^2, coefficient of determination is: %.2f \n' % model.score(X_test, y_test))
 
-<<<<<<< HEAD
-=======
 
->>>>>>> temp_branch
 coeff =model.coef_
 
 sample_data = read_file[read_file['Date'] == '2013-09-24']
